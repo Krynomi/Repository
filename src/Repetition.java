@@ -11,7 +11,7 @@ public class Repetition {
 		int RandomNumber3 = num.nextInt(10);
 		int reps = 0;
 
-		for (reps = 1; Number1 != RandomNumber1 && Number2 != RandomNumber2 && Number3 != RandomNumber3; reps++) {
+		for (reps = 1; Number1 != RandomNumber1 || Number2 != RandomNumber2 || Number3 != RandomNumber3; reps++) {
 			Number1 = num.nextInt(10);
 			Number2 = num.nextInt(10);
 			Number3 = num.nextInt(10);

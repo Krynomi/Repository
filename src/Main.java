@@ -33,6 +33,7 @@ public class Main {
 				Variables.Variables(in);
 				userChoice = 0;
 			} else if (userChoice == 8) {
+				in.close();
 				System.exit(0);
 			} else {
 				System.out.println("Try Again?");
@@ -43,11 +44,11 @@ public class Main {
 }
 
 /*
-1. Arrays 
+1. Arrays = Started
 2. Nested Loops
 3. Operators = Done
-4. Repetition
-5. Selections
+4. Repetition = Done
+5. Selections = Done
 6. Subprograms
 7. Variables
  */
