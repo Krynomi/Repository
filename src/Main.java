@@ -7,6 +7,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int userChoice = 0;
 		while (userChoice > 8 || userChoice < 1) {
+			System.out.println();
 			System.out.println("Please select of the following options");
 			System.out.println(
 					"1. Arrays \n2. Nested Loops\n3. Operators\n4. Repetition\n5. Selections\n6. Subprograms\n7. Variables\n8. Quit");
@@ -45,7 +46,7 @@ public class Main {
 
 /*
 1. Arrays = Started
-2. Nested Loops
+2. Nested Loops = Done
 3. Operators = Done
 4. Repetition = Done
 5. Selections = Done
