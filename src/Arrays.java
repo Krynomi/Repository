@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Arrays {
 
-	public static void Arrays(Scanner in) {
+	public static void Array(Scanner in) {
 		System.out.println("How long would you like your array to be?");
 		int ArraySize = in.nextInt();
 		double[] Numbers = new double[ArraySize];
