@@ -13,7 +13,7 @@ public class Main {
 					"1. Arrays \n2. Nested Loops\n3. Operators\n4. Repetition\n5. Selections\n6. Subprograms\n7. Variables\n8. Quit");
 			userChoice = in.nextInt();
 			if (userChoice == 1) {
-				Arrays.Array(in);
+				ArrayWork.Arrays(in);
 				userChoice = 0;
 			} else if (userChoice == 2) {
 				Nested.Nests(in);
@@ -45,11 +45,11 @@ public class Main {
 }
 
 /*
-1. Arrays = Started
+1. Arrays = Done
 2. Nested Loops = Done
 3. Operators = Done
 4. Repetition = Done
 5. Selections = Done
-6. Subprograms
+6. Subprograms = ?
 7. Variables = Done
  */
